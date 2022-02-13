@@ -12,7 +12,7 @@ export const Subtitle = styled.p`
 
   color: #000;
 `;
-const Container = styled.div`
+export const Container = styled.div`
   position: absolute;
   height: 520px;
   /* background-color: opacity; */
