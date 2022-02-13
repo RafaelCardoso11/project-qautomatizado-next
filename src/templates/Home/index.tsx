@@ -14,6 +14,7 @@ import { translateY50 } from '../../animations';
 import { useScroll } from "../../animations/useScroll";
 
 import { ContentHeader, Container, ContentLogos, ContentMain, Subtitle, Title } from './styles/components'
+
 export const Home = () => {
   const [element, controls] = useScroll();
   return (
